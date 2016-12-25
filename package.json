@@ -1,0 +1,28 @@
+{
+  "name": "angular-http-task",
+  "version": "1.0.0",
+  "description": "A data.task wrapper for anglar $http network library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anildukkipatty/angular-http-task.git"
+  },
+  "keywords": [
+    "angular",
+    "data.task",
+    "functional",
+    "programing"
+  ],
+  "author": "Anil Dukkipatty <anildukkipatty@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anildukkipatty/angular-http-task/issues"
+  },
+  "homepage": "https://github.com/anildukkipatty/angular-http-task#readme",
+  "dependencies": {
+    "angular": "^1.6.1"
+  }
+}
