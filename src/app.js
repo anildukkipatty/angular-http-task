@@ -1,7 +1,7 @@
 const angular = require('angular')
 const Task = require('data.task')
 
-angular.module('HTTP', [])
+angular.module('HTTP', ['HTTP'])
 	.factory('HTTP', ['$http', ($http) => {
 		const get = (url) => new Task((reject, resolve) =>
 			$http.get(url)
