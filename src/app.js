@@ -12,11 +12,16 @@ angular.module('HTTP', ['HTTP'])
 			$http.post(url, data)
 				.then(resolve, reject)
 		).map(d => d.data)
+		
+		const put = (url, data) => new Task((reject, resolve) =>
+			$http.put(url, data)
+				.then(resolve, reject)
+		).map(d => d.data)
 
 		const deleteMethod = (url) => new Task((reject, resolve) =>
 			$http.delete(url)
 				.then(resolve, reject)
 		).map(d => d.data)
 
-		return { get, post, delete: deleteMethod }
+		return { get, post, put, delete: deleteMethod }
 	}])
